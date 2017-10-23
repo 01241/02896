@@ -15,7 +15,7 @@ $(document).ready(function () {
 
     $filterCheckboxes.on('click', function() {
 
-        $('#main-category').find('.is-checked').removeClass('is-checked');      // CATEGORIES "AND"  comment out this line      /* $('#main-category').find('.is-checked').removeClass('is-checked'); */
+        $('#main-category').find('.is-checked').removeClass('is-checked');      // CATEGORIES "AND"  comment out this line
         $(this).addClass('is-checked');                                         // CATEGORIES "AND"  change this line to        $(this).toggleClass('is-checked');
         $('#main-show-all').removeClass('is-checked');
         var selectedFilters = {};
