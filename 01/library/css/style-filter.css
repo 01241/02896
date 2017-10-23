@@ -17,11 +17,6 @@ body {
 }
 .display-none { display: none !important; }
 
-
-
-
-/* --------------------------------------------------------------- outers ---- */
-
 .demo-header {
     background: #9E9E9E;
     padding: 60px 0 20px;
@@ -50,24 +45,7 @@ h1 {
 	flex-wrap: wrap;
 	margin-left: -20px;
 	margin-top: -20px;
-	}
-
-/* option with FLEX
-#list-wrap .item {
-    flex: 1 0 240px;
-    box-sizing: border-box;
-    background: #fff;
-    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.15);
-    margin-left: 20px;
-    margin-top: 20px;
-    max-width: 240px;
-    zoom: 1;
-    min-height: 0;
-    font-size: 90%;
-    line-height: 136%;
 }
-*/
-/* option float */
 #list-wrap .item {
     box-sizing: border-box;
     background: #fff;
@@ -80,7 +58,6 @@ h1 {
     float: left;
     width: 202px;
 }
-
 .item-inner {
     position: relative;
     height: 100%;
@@ -113,20 +90,8 @@ h1 {
     overflow: hidden;
     min-height: 80px;
     background: #f2f2f2;
-    /* filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); filter: gray; -webkit-filter: grayscale(100%); */
 }
 .item-image:hover {
-    /*
-    -ms-transform: translate(-50%, -50%);
-    -webkit-transform: scale3d(1, 1, 1) translate3d(-50%, -50%, 0);
-    transform: scale3d(1, 1, 1) translate3d(-50%, -50%, 0);
-    -webkit-transition: -webkit-transform 250ms;
-    transition: -webkit-transform 250ms;
-    transition: transform 250ms;
-    transition: transform 250ms, -webkit-transform 250ms;
-
-    see end of page https://www.edenspiekermann.com/magazine/innovating-mobility-the-service-design-process/
-    */
     opacity: 1;
     filter: none;
     -webkit-filter: none;
@@ -204,19 +169,6 @@ h1 {
     opacity: 0.4;
 }
 
-/* left line over descrition
-.item-description::before {
-    background-color: #b0b0b0;
-    top: 9px;
-    content: '';
-    display: block;
-    height: 1px;
-    left: 0;
-    position: absolute;
-    width: 30px;
-}
-
-
 /* --------ColorScheme thumb-bg ------*/
 
 .bg-000000 { background: #000000; }
@@ -232,7 +184,7 @@ h1 {
 
 
 
-
+/* ---- USED ONLY FOR Portfolio Script---- */
 #overlay-wrap {
     width: 100vw;
     height: 100vh;
@@ -277,6 +229,8 @@ h1 {
     left: 6px;
     top: 6px;
 }
+
+
 
 
 
@@ -338,9 +292,9 @@ h1 {
     border-bottom: 2px solid #000;
     color: #000;
 }
-
-button:focus {outline:0;}
-
+button:focus {
+    outline:0;
+}
 #no-filter {
     float: left;
     padding: 2px 9px;
@@ -466,7 +420,7 @@ button:focus {outline:0;}
 }
 
 
-/* ---------------------------------------------------------- Sort Dropdown Variante SHOP---- */
+/* ---------------------------------------------------------- Sort Dropdown ---- */
 
 #sort-dropdown {
     position: absolute;
@@ -498,14 +452,12 @@ button:focus {outline:0;}
     padding: 0;
     background-color: #ffffff;
     list-style: none;
-    /* width: 180px; */
     max-height: 205px;
     overflow-x: hidden;
     overflow-y: auto;
     text-align: right;
 }
 #sort-dropdown li.is-checked a {
-    /* background-color: #f8f8f8 !important; */
     color: #ccc !important;
 }
 #sort-dropdown .sub-menu a,
@@ -582,16 +534,18 @@ button:focus {outline:0;}
 
 } /* end of media query */
 
+
+
+
+
 @media only screen and (min-width: 120px) and (max-width: 738px) {
     h1 { font-size: 8vw; }
     #overlay-close { left: 0; }
     #main-category-wrap button { font-size: 90%; }
-}
-
+} /* end of media query */
 @media only screen and (width: 768px) {
     #overlay-close { left: 0; }
 } /* end of media query */
-
 @media only screen and (width: 1024px) {
     #overlay-close { left: 0; }
 } /* end of media query */
@@ -600,31 +554,25 @@ button:focus {outline:0;}
 
 
 
+
+/* ------------- Wrapper ----------- */
+
 @media (max-width: 604px) and (min-width: 380px) {
     #wrapper, .wrap { width: 355px; }
     #list-wrap .item { margin-left: 15px; margin-top: 15px; width: 172px; }
 } /* end of media query */
-
 @media (max-width: 738px) and (min-width: 604px) {
     #wrapper, .wrap { width: 424px; }
 } /* end of media query */
-
 @media (max-width: 960px) and (min-width: 738px) {
     #wrapper, .wrap { width: 646px; }
 } /* end of media query */
-
 @media (max-width: 1182px) and (min-width: 960px) {
     #wrapper, .wrap { width: 868px; }
 } /* end of media query */
-
 @media (max-width: 1404px) and (min-width: 1182px) {
    #wrapper, .wrap { width: 1090px; }
 } /* end of media query */
-
 @media (min-width: 1404px) {
    #wrapper, .wrap { width: 1312px; }
 } /* end of media query */
-
-
-
-
