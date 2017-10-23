@@ -22,6 +22,7 @@ Alternative to masonry etc. with good performance. Layout in this first version 
 ## Lizenz
 
 MIT License (MIT)
+See the [LICENSE file] for license rights and limitations.
 
 ## Contact
 
