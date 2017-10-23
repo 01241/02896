@@ -269,7 +269,7 @@ h1 {
     transition: all 0.3s ease-in-out;
 }
 .button:hover {
-  background-color: #000;
+  background-color: #888;
   color: #efefef;
 }
 .button.is-checked {
@@ -533,9 +533,6 @@ button:focus {
     }
 
 } /* end of media query */
-
-
-
 
 
 @media only screen and (min-width: 120px) and (max-width: 738px) {
