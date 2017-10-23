@@ -2,15 +2,11 @@
 
 Alternative to masonry etc. with good performance. Layout in this first version with igual height items.
 
-| **data-date** | 736623 | used to sort date |
-| **data-id** | creatingmason | used to sort title |
-| **data-category** | code tool design | used for filter |
-
 |  | Example | Used to |
 | :-------- | :-------- | :------------------------- |
-| **data-date** | 736623 | used to sort date |
-| **data-id** | creatingmason | used to sort title |
-| **data-category** | code tool design | used for filter |
+| **data-date** | 736623 | sort date |
+| **data-id** | creatingmason | sort title |
+| **data-category** | code tool design | filtering |
 
 ## Demos
 
