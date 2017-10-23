@@ -1,8 +1,12 @@
 # 02896 Filter and Sort
 
+Alternative to masonry etc. with good performance. Layout in this first version with igual height items.
+
 ## Demos
 
 ### 01 Simple Filter
+
+#### One category selectable
 
 * Online: [https://markussteiger.ch/github/02896/01/](https://markussteiger.ch/github/02896/01/)
 
