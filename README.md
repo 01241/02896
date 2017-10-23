@@ -1,4 +1,4 @@
-# 02896 Filter and Sort
+# 02896 Filter and sort list items
 
 Alternative to masonry etc. with good performance. Layout in this first version with igual height items.
 
