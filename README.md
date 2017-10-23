@@ -4,7 +4,7 @@ Alternative to masonry etc. with good performance. Layout in this first version 
 
 |  | Example value | Used to |
 | :-------- | :-------- | :------------------------- |
-| **data-date** | 736623 | sort date |
+| **data-date** | 736623, 2017-10-12 | sort date |
 | **data-id** | creatingmason | sort title |
 | **data-category** | code tool design | filtering |
 
