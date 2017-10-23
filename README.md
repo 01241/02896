@@ -2,7 +2,7 @@
 
 Alternative to masonry etc. with good performance. Layout in this first version with igual height items.
 
-|  | Example value | Used to |
+|  | Example values | Used to |
 | :-------- | :-------- | :------------------------- |
 | **data-date** | 736623, 2017-10-12 | sort date |
 | **data-id** | creatingmason | sort title |
