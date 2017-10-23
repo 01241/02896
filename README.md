@@ -16,6 +16,10 @@ Alternative to masonry etc. with good performance. Layout in this first version 
 
 * Online: [https://markussteiger.ch/github/02896/01/](https://markussteiger.ch/github/02896/01/)
 
+#### Multiple category selectable (AND)
+
+* Online: [https://markussteiger.ch/github/02896/02/](https://markussteiger.ch/github/02896/02/)
+
 ## Lizenz
 
 MIT License (MIT)
