@@ -46,9 +46,9 @@ h1 {
 
 #list-wrap {
     display: flex;
-	flex-wrap: wrap;
-	margin-left: -20px;
-	margin-top: -20px;
+    flex-wrap: wrap;
+    margin-left: -20px;
+    margin-top: -20px;
 }
 #list-wrap .item {
     box-sizing: border-box;
