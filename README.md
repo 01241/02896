@@ -23,7 +23,6 @@ Alternative to masonry etc. with good performance. Layout in this first version 
 * Online: [https://markussteiger.ch/github/02896/02/](https://markussteiger.ch/github/02896/02/)
 
 ## Lizenz
-MIT License (MIT)  
 See the [LICENSE file](https://github.com/01241/02896/blob/master/LICENSE.txt) for license rights and limitations (MIT).
 
 ## Contact
