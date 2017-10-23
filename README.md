@@ -12,12 +12,10 @@ Alternative to masonry etc. with good performance. Layout in this first version 
 
 ### 01 Simple Filter
 
-#### One category selectable
-
+##### One category selectable
 * Online: [https://markussteiger.ch/github/02896/01/](https://markussteiger.ch/github/02896/01/)
 
-#### Multiple category selectable (AND)
-
+##### Multiple category selectable (AND)
 * Online: [https://markussteiger.ch/github/02896/02/](https://markussteiger.ch/github/02896/02/)
 
 ## Lizenz
