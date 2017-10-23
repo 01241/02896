@@ -10,8 +10,6 @@ Alternative to masonry etc. with good performance. Layout in this first version 
 
 ## Demos
 
-data-date="736623" data-id="creatingmason14281" data-category="code"
-
 ### 01 Simple Filter
 
 #### One category selectable
