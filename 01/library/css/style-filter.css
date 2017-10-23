@@ -162,6 +162,7 @@ h1 {
     margin: 0 0 8vh 0;
     position: relative;
     background: #ededed;
+    min-height: 101px;
 }
 .button {
     display: inline-block;
@@ -215,7 +216,7 @@ button:focus {
     min-height: 30px;
 }
 .counter {
-    height: 20px;
+    min-height: 30px;
     font-size: 80%;
     margin: 19px 0 0 0;
 }
