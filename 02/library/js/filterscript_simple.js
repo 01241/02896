@@ -15,8 +15,8 @@ $(document).ready(function () {
 
     $filterCheckboxes.on('click', function() {
 
-        $('#main-category').find('.is-checked').removeClass('is-checked');      // CATEGORIES "AND"  comment out this line      /* $('#main-category').find('.is-checked').removeClass('is-checked'); */
-        $(this).addClass('is-checked');                                         // CATEGORIES "AND"  change this line to        $(this).toggleClass('is-checked');
+        /* $('#main-category').find('.is-checked').removeClass('is-checked'); */        // "UNIQUE CATEGORY"    uncomment
+        $(this).toggleClass('is-checked');                                              // "UNIQUE CATEGORY"    change this line to  $(this).addClass('is-checked');
         $('#main-show-all').removeClass('is-checked');
         var selectedFilters = {};
 
