@@ -8,8 +8,9 @@ Alternative to masonry etc. with good performance. Layout in this first version 
 
 |  | Example | Used to |
 | :-------- | :-------- | :------------------------- |
-| **Bold** | Hello | [_Link_](http://www.01241.com) |
-| Lorem | Ipsum | Text |
+| **data-date** | 736623 | used to sort date |
+| **data-id** | creatingmason | used to sort title |
+| **data-category** | code tool design | used for filter |
 
 ## Demos
 
