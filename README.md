@@ -19,7 +19,7 @@ Alternative to masonry etc. with good performance. Layout in this first version 
 ##### **01**: One category selectable
 * Online: [https://markussteiger.ch/github/02896/01/](https://markussteiger.ch/github/02896/01/)
 
-##### **02**: Multiple category selectable (AND)
+##### **02**: Multiple categories selectable (AND)
 * Online: [https://markussteiger.ch/github/02896/02/](https://markussteiger.ch/github/02896/02/)
 
 ## Lizenz
