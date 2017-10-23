@@ -1,6 +1,7 @@
 # 02896 Filter and sort list items
 
 Alternative to masonry etc. with good performance. Layout in this first version with igual height items.
+  
 
 
 |  | Example values | Used to |
@@ -9,6 +10,8 @@ Alternative to masonry etc. with good performance. Layout in this first version 
 | **data-id** | creatingmason | sort title |
 | **data-category** | code tool design | filtering |
 
+  
+  
 ## Demos
 
 ### Simple Filter
@@ -21,8 +24,7 @@ Alternative to masonry etc. with good performance. Layout in this first version 
 
 ## Lizenz
 MIT License (MIT)  
-See the [LICENSE file](https://github.com/01241/02896/blob/master/LICENSE.txt)  
-for license rights and limitations (MIT).
+See the [LICENSE file](https://github.com/01241/02896/blob/master/LICENSE.txt) for license rights and limitations (MIT).
 
 ## Contact
 
