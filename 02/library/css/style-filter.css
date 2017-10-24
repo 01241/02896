@@ -314,6 +314,7 @@ button:focus {
     margin: 0;
     text-decoration: none;
     transition: all 0.2s ease-in-out;
+    cursor: pointer;
 }
 #sort-dropdown .sub-menu a:hover {
     background-color: #f1f1f1;
