@@ -162,7 +162,6 @@ h1 {
     margin: 0 0 8vh 0;
     position: relative;
     background: #ededed;
-    min-height: 101px;
 }
 .button {
     display: inline-block;
@@ -218,7 +217,7 @@ button:focus {
 .counter {
     min-height: 30px;
     font-size: 80%;
-    margin: 19px 0 0 0;
+    margin: 21px 0 0 0;
 }
 .error-message {
     padding: 2vw;
