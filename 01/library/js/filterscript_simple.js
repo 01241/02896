@@ -80,8 +80,8 @@ $(document).ready(function () {
             $items.each(function(){
                 $wrapper.append(this);
             });
+            $('.sub-menu li').removeClass('is-checked');
             that.addClass('is-checked');
-            $('#sorttitel').removeClass('is-checked');
 
             $('.dropdown-opener .button-text').text(menuText);
             $('.dropdown-opener').attr('data-val', menuText).removeClass('clicked');
@@ -103,8 +103,8 @@ $(document).ready(function () {
             $items.each(function(){
                 $wrapper.append(this);
             });
+            $('.sub-menu li').removeClass('is-checked');
             that.addClass('is-checked');
-            $('#sortdate').removeClass('is-checked');
 
             $('.dropdown-opener .button-text').text(menuText);
             $('.dropdown-opener').attr('data-val', menuText).removeClass('clicked');
